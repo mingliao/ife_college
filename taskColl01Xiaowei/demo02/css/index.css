@@ -1,0 +1,365 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+/*样式重置*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*样式重置*/
+
+html {
+
+}
+
+body {
+    background: #dedede;
+}
+
+nav {
+    height: 60px;
+    background: #333333;
+}
+
+nav h1 {
+    float: left;
+}
+nav h1 a{
+    display: block;
+    margin-left: 30px;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav h1 img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*margin-top: -23px;*/
+}
+nav ul {
+    float: right;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 22px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 8px;
+    
+}
+
+nav li a {
+    color: #fff;
+    font-size: 12px;
+}
+
+header {
+    margin: 20px ;
+    background: #fff;
+    border-right: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+    padding: 11px 28px 33px 20px;
+}
+
+header main {
+
+}
+
+main {
+
+}
+main h2 {
+    line-height: 44px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main h3 {
+    font-size: 16px;
+    color: #867774;
+    line-height: 40px;
+    
+}
+
+main .article_info {
+    margin: 7px 0;
+}
+
+main .article_info span {
+    font-size: 12px;
+    color: #8193a7;
+}
+
+main p {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 7px;
+    color: #00073e;
+}
+
+main img {
+    margin-top: 11px;
+    text-indent: 0px;
+}
+
+main .ul {
+    padding-left: 22px;
+
+}
+
+main .ul li {
+    font-size: 16px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.img-cont {
+
+}
+.img-cont div {
+    margin-left: 40px;
+    margin-bottom: 18px;
+    height: 122px;
+    width: 127px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+
+.img-cont p {
+    text-indent: 0em;
+}
+
+.img-cont img {
+    width: 100px;
+    height: 80px; 
+    margin-top: 0px;  
+}
+
+header ol {
+    margin-left: 25px;
+    list-style-position:inside;
+}
+header ol li {
+    margin-top: 13px;
+}
+header table {
+    margin-top: 25px;
+    width: 100%;
+}
+header thead {
+    border: 1px solid #ccc;
+    height: 24px;
+    background: #000;
+    color: #fff;
+}
+
+header thead tr {
+    
+}
+header thead th {
+    text-align: left;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    border-right: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+header tbody {
+
+}
+header tbody tr {
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+header tbody td {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+header tbody a {
+
+}
+
+header tfoot {
+    height: 24px;
+    line-height: 24px;
+    background: #ccc;
+}
+header tfoot tr {
+
+}
+
+header tfoot td {
+    font-size: 12px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.form-cont {
+
+}
+
+.form-cont h4{
+    border-left: 5px solid #ccc;
+    height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+
+ .form-item {  
+   font:100% verdana,arial,sans-serif;
+ }
+
+ .form-item fieldset {
+    width: 800px;
+    margin:0 auto;
+ }
+
+ .form-item label {
+    float: left;
+    width: 200px;/* 定一个宽，右对齐 使得label对齐*/
+    margin-left: 200px;
+    text-align: right;
+    font-size: 10px;
+    padding-top: 4px;
+ }
+
+ .form-item .info {
+    text-align: center;
+    padding-left: 150px;
+    font-size: 12px;
+    color: #ccc;
+ }
+ .form-item br {
+    clear: left;
+ }
+
+ .form-item input[type="submit"]{
+    display: block;
+    background: #009;
+    width: 100%;
+    text-align: center;
+    height:50px;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+ }
+
+footer {
+    background: #000;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+}
+
