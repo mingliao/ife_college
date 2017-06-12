@@ -172,12 +172,104 @@
 
 				<form class="form-item" action="#" method="post" name="f">
 				<fieldset>
-					<label>请输入邮箱地址</label>
-					<input type="email" placeholder="这是一个文本输入框" /><br>
-					<div class="info">
-					<small>邮箱地址请按要求格式输入</small>	
+					<div class="item-cont">
+						<div class="label-cont">
+							<label>请输入邮箱地址</label>
+						</div>
+					
+						<div class="input-cont">
+							<input type="email" placeholder="这是一个文本输入框" />
+							<div class="info">
+								<small>邮箱地址请按要求格式输入</small>	
+							</div>
+						</div>
 					</div>
-					<label>请输入密码</label>
+					<div class="item-cont">
+						<div class="label-cont">
+							<label>请输入密码</label>
+						</div>
+						
+						<div class="input-cont">
+							<input type="password"  />
+							<div class="info">
+								<small>密码请按要求格式输入</small>	
+							</div>
+						</div>
+					</div>
+					<div class="item-cont">
+						<div class="label-cont">
+							<label>请重复密码</label>
+						</div>
+						<div class="input-cont">
+							<input type="password"  />
+							<div class="info">
+								<small>密码请按要求格式输入</small>	
+							</div>
+						</div>
+					</div>
+					<div class="item-cont">	
+						<div class="label-cont">
+							<label>性别</label>
+						</div>
+						<div class="input-cont sex-item">
+							<input type="radio" checked="checked" name="gender" />男
+												<input type="radio" name="gender" />女<br />
+							<div class="info">
+								<small>密码请按要求格式输入</small>	
+							</div>
+						</div>
+					</div>
+					<div class="item-cont">	
+						<div class="label-cont">
+							<label>城市</label>
+						</div>
+						<div class="input-cont sex-item">
+							<select>
+													<option>北京</option>
+													<option>上海</option>
+													<option>广州</option>
+													<option>深圳</option>
+													<option>杭州</option>
+												</select>
+							<div class="info">
+								<small>密码请按要求格式输入</small>	
+							</div>
+						</div>
+					</div>
+					<div class="item-cont">	
+						<div class="label-cont">
+							<label>爱好</label>
+						</div>
+						<div class="input-cont">
+							<div class="input-item">
+								<input type="checkbox" />运动
+													<input type="checkbox" />艺术
+													<input type="checkbox" />科学
+							</div>
+							
+							<div class="info">
+								<small>密码请按要求格式输入</small>	
+							</div>
+						</div>
+					</div>
+						
+					<div class="item-cont">	
+						<div class="label-cont">
+							<label>爱好</label>
+						</div>
+						<div class="input-cont">
+							<div class="input-item">
+								<textarea placeholder="这是一个多行输入框,输入您的个人描述"></textarea>
+							</div>
+							
+							<div class="info">
+								<small>密码请按要求格式输入</small>	
+							</div>
+						</div>
+					</div>
+
+
+					<!-- <label>请输入密码</label>
 					<input type="password" placeholder="这是一个文本输入框"/><br>
 					<div class="info">
 					<small>密码请按要求格式输入</small>	
@@ -187,7 +279,7 @@
 					<label>性别:</label>
 					<input type="radio" checked="checked" name="gender" />男
 					<input type="radio" name="gender" />女<br />
-
+					
 					<label>城市:</label>
 					<select>
 						<option>北京</option>
@@ -201,7 +293,7 @@
 					<input type="checkbox" />艺术
 					<input type="checkbox" />科学<br />
 					<label>个人描述</label>
-					<textarea placeholder="这是一个多行输入框,输入您的个人描述"></textarea>
+					<textarea placeholder="这是一个多行输入框,输入您的个人描述"></textarea> -->
 				</fieldset>
 				<input type="submit" value="确认提交" />
 				</form>
