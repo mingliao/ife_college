@@ -11,3 +11,4 @@
   * 缺点：不过屏幕最小的时候显示有问题。
 * margin负边距 [demo03](./demo03/demo03.html) 
   * 要点: 这种方法布局，主要运用的是负的margin值。首先在div#main中我定了一个100％宽度并进行左浮动，并且主内容是放在其内层div#mainContainer中，并在这个主内容层中需要进行一个margin-left和margin-right设置，并且这两个值是很有讲究的，并不是可以随便设置的，这两个值需要等于左右两列的宽度。我们此处是230px。左栏和右栏都使用负的margin值加上左浮动来布局，*左栏是左浮动并加了一个“margin-left:-100%”,这是因为div#left前面有一个div#main，并且其宽度为100％，这样一来在左栏定这个margin-left: -100%;刚好使左边栏定位到页面的最左边；*而右栏也进行左浮动，但其定义的“margin-left”也是负值，并且等于其自身的宽度230px；最后在div#left,div#right中加上一个div.inner是为了更好的控制边栏与主内容列之间的间距。比如说此例的10px。
+  * 看下demo031(./demo03/demo031.html) ，*想下为什么#main为什么会下沉*。
