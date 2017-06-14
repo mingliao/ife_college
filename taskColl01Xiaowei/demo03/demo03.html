@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html,body {margin:0; padding: 0;}
+		#main {
+			float: left;
+			width: 100%;
+		}
+		#mainContainer {
+			margin: 0 230px;
+			height: 200px;
+			background: green;
+		}
+		#left {
+			float: left;
+			margin-left: -100%;
+			width: 230px
+		}
+				
+		#right {
+			float: left;
+			margin-left: -230px;
+			width: 230px;
+		}
+				
+		#left .inner,
+		#right .inner {
+			background: orange;
+			margin: 0 10px;
+			height: 200px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div id="main">
+		<div id="mainContainer">main content</div>
+	</div>
+	<div id="left">
+		<div id="leftContainer" class="inner">left content</div>
+	</div>
+	<div id="right">
+		<div id="rightContainer" class="inner">right</div>
+	</div>
+
+</body>
+</html>

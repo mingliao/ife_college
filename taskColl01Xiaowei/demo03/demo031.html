@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html,body{margin:0; padding: 0;}
+		#left{float: left;width: 230px; background: #f00;height: 200px;}
+		#main{float: left;width: 100%;margin: 0 240px;background: #0f0;height: 200px;}
+		#right{float: right; width: 230px;background: #00f;height: 200px;}
+	</style>
+</head>
+<body>
+	<p>浮动下沉，如现在的#main是整个盒模型的宽度（margin+width）超过整个width了。所以自己下沉了。也把#right也挤下去了。</p>
+	<div id="left">left content</div>
+	<div id="main">main content</div>
+	<div id="right">right content</div>
+</body>
+</html>

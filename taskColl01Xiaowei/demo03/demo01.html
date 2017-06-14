@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html,body {
+			margin:0;
+			padding: 0;
+			height: 100%;
+		}
+
+		#left,#right {
+			position: absolute;
+			top: 0;
+			width: 220px;
+			height: 100%;
+		}
+		#left {
+			left: 0;
+			background: red;
+		}
+		#right {
+			right: 0;
+			background: green;
+		}
+		#main {
+			background: yellow;
+			margin:0 230px;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="left">左边栏</div>
+	<div id="right">右边栏</div>
+	<div id="main">主内容</div>
+
+</body>
+</html>
