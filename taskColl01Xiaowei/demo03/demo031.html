@@ -12,6 +12,7 @@
 </head>
 <body>
 	<p>浮动下沉，如现在的#main是整个盒模型的宽度（margin+width）超过整个width了。所以自己下沉了。也把#right也挤下去了。</p>
+	<p>对比demo02.html，如果把#main 宽度变小，float 去掉 #right也不会上去，因为right 虽然也脱离文档流，不过被main（块元素）阻拦了。</p>
 	<div id="left">left content</div>
 	<div id="main">main content</div>
 	<div id="right">right content</div>
