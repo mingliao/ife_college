@@ -26,14 +26,14 @@
   * 再看下要点。 
 ### 任务四：定位和居中问题
 垂直，水平居中看下[任务提供的参考资料](http://ife.baidu.com/course/detail/id/95)
-  *水平居中
-    * 文本居中 `text-align:center`
-    * 文档居中 
-      * 处于文档流中：`margin:x auto`
-      * 脱离文档流：绝对定位+margin负边距
-  *垂直居中
-    *  这里使用固定定位+margin负边距
-  *圆角画法
-    [参考:CSS3:border-radius隐藏的威力](http://www.xincss.com/?p=221)
+* 水平居中
+  * 文本居中 `text-align:center`
+  * 文档居中 
+    * 处于文档流中：`margin:x auto`
+    * 脱离文档流：绝对定位+margin负边距
+* 垂直居中
+  *  这里使用固定定位+margin负边距
+* 圆角画法
+  [参考:CSS3:border-radius隐藏的威力](http://www.xincss.com/?p=221)
 
 
