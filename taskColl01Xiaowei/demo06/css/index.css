@@ -1,0 +1,6 @@
+body {background: #fff;}
+.main_cont{width: 894px;margin:0 auto;}
+header.main_cont{position: relative; height: 60px;border-bottom: 2px solid #938e8c;}
+header.main_cont h1{float: left;position: relative; width: 110px; height: 100%;background: #d45d5c;}
+header.main_cont h1 a{position: absolute; bottom: 6px;left: 7px; font-size: 9px;color: #fff;}
+header.main_cont span{color:#d45d5c;position: absolute;bottom: 6px;right: 0;font-size: 8px; }
