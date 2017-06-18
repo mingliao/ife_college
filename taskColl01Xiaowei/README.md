@@ -32,8 +32,11 @@
     * 处于文档流中：`margin:x auto`
     * 脱离文档流：绝对定位+margin负边距
 * 垂直居中
-  *  这里使用固定定位+margin负边距
+  * 这里使用固定定位+margin负边距
 * 圆角画法
   [参考:CSS3:border-radius隐藏的威力](http://www.xincss.com/?p=221)
 
-
+### 任务五：零基础HTML及CSS编码（二）
+* 在任务二：零基础HTML及CSS编码（一）基础上，#main的归类。分成.ontain .main_cont .sidebar_cont方便布局 .contain相对定位，.sidebar_cont 绝对定位，调整.sidebar_cont内form
+* img使用宽度百分比。避免固定宽度导致边界问题。
+* 边界使用百分比。自适应布局。
