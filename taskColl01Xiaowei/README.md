@@ -2,6 +2,7 @@
 ### 任务一：零基础HTML编码
 * 参考笔记[进击的HTML5语义化标签](http://ife.baidu.com/note/detail/id/684)
   * 该笔记后面的参考链接
+
 ### 任务三：三栏式布局
 参考材料 [CSS三栏布局——中间固定两边自适应宽度](http://www.w3cplus.com/blog/104.html)
 * [index](./demo03/index.html) 参考的是浮动布局 [demo02](./demo03/demo02.html) ，其他的方式也试一下。
@@ -26,7 +27,8 @@
   * 浮动元素margin哪一个方向负值，就往哪一个方向缩进。
     * 出现这种情况，1，浮动元素，2，margin为负，普通文档流应该不会有这样的效果。
 * 中间固定宽度，两边自适应 [demo04](./demo03/demo04.html)
-  * 再看下要点。 
+  * 再看下要点。
+   
 ### 任务四：定位和居中问题
 垂直，水平居中看下[任务提供的参考资料](http://ife.baidu.com/course/detail/id/95)
 * 水平居中
@@ -38,6 +40,9 @@
   * 这里使用固定定位+margin负边距
 * 圆角画法
   [参考:CSS3:border-radius隐藏的威力](http://www.xincss.com/?p=221)
+* 参考资料，详细看任务后面的链接。举例如下，可能其他的没注意看到，有空再翻看看:
+  * [清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)
+    * 这个例子使用`overflow:auto` 清除浮动，兼容ie。对比 `xxSel:after{content:'';visible:hidden;clear:both}`
 
 ### 任务五：零基础HTML及CSS编码（二）
 * 在任务二：零基础HTML及CSS编码（一）基础上，#main的归类。分成.ontain .main_cont .sidebar_cont方便布局 .contain相对定位，.sidebar_cont 绝对定位，调整.sidebar_cont内form
