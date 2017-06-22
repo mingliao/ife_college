@@ -1,4 +1,7 @@
 # 小薇学院
+### 任务一：零基础HTML编码
+* 参考笔记[进击的HTML5语义化标签](http://ife.baidu.com/note/detail/id/684)
+  * 该笔记后面的参考链接
 ### 任务三：三栏式布局
 参考材料 [CSS三栏布局——中间固定两边自适应宽度](http://www.w3cplus.com/blog/104.html)
 * [index](./demo03/index.html) 参考的是浮动布局 [demo02](./demo03/demo02.html) ，其他的方式也试一下。
