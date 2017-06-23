@@ -1,51 +1,6 @@
 # 小薇学院
 ### 任务一：零基础HTML编码
-* 参考笔记[进击的HTML5语义化标签](http://ife.baidu.com/note/detail/id/684)
-  * 该笔记后面的参考链接
-
+### 任务二：零基础HTML及CSS编码（一）
 ### 任务三：三栏式布局
-参考材料 [CSS三栏布局——中间固定两边自适应宽度](http://www.w3cplus.com/blog/104.html)
-* [index](./demo03/index.html) 参考的是浮动布局 [demo02](./demo03/demo02.html) ，其他的方式也试一下。
-  * 要点，使用父元素清除浮动+ 浮动布局的方式，可以保证子元素高度自适应。
-* [index01](./demo03/index01.html) 参考的是浮动布局+绝对布局。
-  * 要点，使用父元素清除浮动+ 浮动布局的方式，可以保证子元素高度自适应。
-    * 通过绝对定位，固定左侧导航位置。
-* 绝对布局 [demo01](./demo03/demo01.html) 侧边栏栏都使用绝对布局，
-  * 要点
-  * 优点：简单
-  * 缺点：如果中间栏含有最小宽度限制，或是含有宽度的内部元素，当浏览器宽度小到一定程度，会发生层重叠的情况。
-* 浮动布局 [demo02](./demo03/demo02.html) 侧边栏栏都使用浮动布局，
-  * 要点：格式有要求(main要放在最后);
-    * 这样设置可以生效的原因是#left #right 左右浮动，脱离了文档流，而main没有脱离文档流，处于文档正确的位置，这个时候#left 和#right 都浮动了。脱离了文档流，所以#main就顶上#left 和 # right的位置，在文档起点位置了。
-    * 如果在#main 后面放一个浮动元素，这个浮动元素浮动的位置在main前还是在main后？
-  * 优点：main可以自适应。
-  * 缺点：不过屏幕最小的时候显示有问题。
-  * 看下[demo021](./demo03/demo021.html) ，*想下为什么#main为什么会下沉*。
-* margin负边距 [demo03](./demo03/demo03.html) 
-  * 要点: 这种方法布局，主要运用的是负的margin值。首先在div#main中我定了一个100％宽度并进行左浮动，并且主内容是放在其内层div#mainContainer中，并在这个主内容层中需要进行一个margin-left和margin-right设置，并且这两个值是很有讲究的，并不是可以随便设置的，这两个值需要等于左右两列的宽度。我们此处是230px。左栏和右栏都使用负的margin值加上左浮动来布局，*左栏是左浮动并加了一个“margin-left:-100%”,这是因为div#left前面有一个div#main，并且其宽度为100％，这样一来在左栏定这个margin-left: -100%;刚好使左边栏定位到页面的最左边**这个100%百分比相对的是屏幕宽度，-100%就到最左边了**；*而右栏也进行左浮动，但其定义的“margin-left”也是负值，并且等于其自身的宽度230px；最后在div#left,div#right中加上一个div.inner是为了更好的控制边栏与主内容列之间的间距。比如说此例的10px。
-  *  浮动元素宽度由内容撑开。
-  * 浮动元素margin哪一个方向负值，就往哪一个方向缩进。
-    * 出现这种情况，1，浮动元素，2，margin为负，普通文档流应该不会有这样的效果。
-* 中间固定宽度，两边自适应 [demo04](./demo03/demo04.html)
-  * 再看下要点。
-
 ### 任务四：定位和居中问题
-垂直，水平居中看下[任务提供的参考资料](http://ife.baidu.com/course/detail/id/95)
-* 水平居中
-  * 文本居中 `text-align:center`
-  * 文档居中 
-    * 处于文档流中：`margin:x auto`
-    * 脱离文档流：绝对定位+margin负边距
-* 垂直居中
-  * 这里使用固定定位+margin负边距
-* 圆角画法
-  [参考:CSS3:border-radius隐藏的威力](http://www.xincss.com/?p=221)
-* 参考资料，详细看任务后面的链接。举例如下，可能其他的没注意看到，有空再翻看看:
-  * [清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)
-    * 这个例子使用`overflow:auto` 清除浮动，兼容ie。对比 `xxSel:after{content:'';visible:hidden;clear:both}`
-  * [清除浮动黑科技完整解读](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)
-
 ### 任务五：零基础HTML及CSS编码（二）
-* 在任务二：零基础HTML及CSS编码（一）基础上，#main的归类。分成.ontain .main_cont .sidebar_cont方便布局 .contain相对定位，.sidebar_cont 绝对定位，调整.sidebar_cont内form
-* img使用宽度百分比。避免固定宽度导致边界问题。
-* 边界使用百分比。自适应布局。
