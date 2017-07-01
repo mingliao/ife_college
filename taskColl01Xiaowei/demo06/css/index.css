@@ -23,7 +23,7 @@ header.main_cont span{color:#d45d5c;position: absolute;bottom: 6px;right: 0;font
 #sidebar .footer span{font:21px "微软雅黑"; color: #cc8091;}
 #sidebar .footer p{font:12px "微软雅黑";}
 
-#article_cont{margin-top: 42px;height: 172px;}
+#article_cont{margin-top: 42px;height: 172px; overflow: hidden;}
 #article_cont .item{float: left;margin-right: 30px;}
 #article_cont article h4{text-decoration: underline;font: 16px  "微软雅黑";}
 #article_cont article p{margin-top: 9px; text-align: justify;font:12px "宋体";color: #767777;line-height: 16px;}
@@ -37,9 +37,18 @@ header.main_cont span{color:#d45d5c;position: absolute;bottom: 6px;right: 0;font
 #article_cont .item3 h4{color: #cc7680;}
 
 #article_cont .item3 p{line-height: 21px;margin-top: 7px;}
+
+
+/* #article_cont ul {margin-top: 15px;list-style-type: none;}
+#article_cont li {font: 12px "微软雅黑";margin-top: 10px;}
+#article_cont li span {color: #cd4a48;} */
+#article_cont ul {margin-top: 25px;list-style-type: none;}
+#article_cont li {font: 12px "微软雅黑";line-height: 12px;  margin-bottom:  8px;}
+#article_cont li span {color: #cd4a48;} 
+/*
 #article_cont ul {margin-top: 15px;list-style-type: none;}
 #article_cont li {font: 12px "微软雅黑";margin-top: 10px;}
-#article_cont li span {color: #cd4a48;}
+#article_cont li span {color: #cd4a48;}*/
 
 
 
