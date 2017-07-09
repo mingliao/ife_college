@@ -50,6 +50,39 @@ header.main_cont span{color:#d45d5c;position: absolute;bottom: 6px;right: 0;font
 #article_cont li {font: 12px "微软雅黑";margin-top: 10px;}
 #article_cont li span {color: #cd4a48;}*/
 
+#content{margin-top: 76px;}
+#content:after {content: "";display: block;clear: both;zoom: 1;}
+.news_main_cont{float: right;width: 462px;}
+.news_main_cont .news_banner{position: relative;}
+.news_main_cont .news_banner img{width: 100%;height: 100%;}
+.news_main_cont .news_banner .info{position: absolute;left: 0;bottom: 0;width:100%;height: 44px;background: #040000;opacity: 0.4;padding: 8px 0 8px;}
+.news_main_cont .info h3{float: left;margin-left:58px;border-left:2px solid #72b16a; width: 126px;height: 100%;line-height: 44px; text-align: center;color: #fff;font-size: 26px;}
+.news_main_cont .info span{float: left;color:#72b16a;margin-top: 18px;font: 12px "微软雅黑"; font-style: italic;}
+.news_main_cont .news{margin-top: 30px;background-color: #eeedd6;padding: 30px 0 0 0;/*position: relative;height: 316px;*/}
+.news_main_cont .news:after{content: "";display: block;clear: both;}
+.news_main_cont .news ul{padding: 0 22px 0 30px;}
+.news_main_cont .news li{padding-left: 18px;  margin-bottom: 26px; font: 16px "宋体";list-style-type: none;background: url(./../img/item.png) no-repeat left 80%;}
+.news_main_cont .logo_cont{width: 244px;height: 88px;background-color: #d45d5c;
+    float: left; padding: 38px 0px 34px 16px;}
+.news_main_cont .logo_cont .num{
+    float: left;width: 70px; height: 86px;line-height: 86px; color: #fff;font-size:110px;border-right: 2px solid #fff;}
+.news_main_cont .logo_cont .sidebar{float: left;width: 162px;margin-left: 8px; color: #fff;}
+.news_main_cont .logo_cont em{font-size: 21px;line-height: 24px;}
+.news_main_cont .logo_cont span{font-size: 12px;line-height: 6px;
+    margin-top:6px;}
+
+
+.news_main_cont p{width: 162px;font-size:14px;line-height: 16px;
+    float: left;margin-left: 16px;margin-top: 23px;}
+.news_main_cont p span{
+    float: left;padding-top: 10px; color: #f00;font-size:72px;line-height: 6px;margin-left: -29px;}
+.news_main_cont span.last{
+    float: right;padding-top: 28px;}
+.news_cont{}
+
+
+
+
 
 
 
